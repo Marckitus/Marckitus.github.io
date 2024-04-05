@@ -45,11 +45,12 @@
 									<span class="image main"><img src="images/CelesteLogo.png" alt="" /></span>
 									<p>Celeste is an incredibly well crafted 2D platformer with a simple to grasp but deep movement system and a high skill ceiling. Mastering different mechanics while climbing the mountain and surpassing tight challenges grant a great sense of satisfaction. Or at least that's what I and a bunch of other players felt when playing and eventually completing Celeste. But is the game accessible to everyone? Does its difficulty progression accompany what’s learnt through the game? And are non habitual gamers able to complete it?</p>
 									<p>Before looking into the challenges the games throws at the player, let's discuss the mechanics first.</p>
-
+									<h2>Player Mechanics</h2>
+									<p>The player character, also known as Madeline can do the following actions:</p>
 									<div class="row">
 										<div class="col-6 col-12-xsmall">
 											<h3>Jumping</h3>
-											<p>Madeline can jump and has control over her own inertia on the air</p>
+											<p>Madeline can jump and has control over her own inertia on the air.</p>
 											<span class="image fit"><img src="images/jump.gif" alt="" /></span>
 											<h3>Dashing</h3>
 											<p>Madeline can dash on the eight cardinal directions once before touching the ground again.</p>
@@ -61,6 +62,27 @@
 											<span class="image fit"><img src="images/climb.gif" alt="" /></span>
 										</div>
 									</div>
+									<h2>Delta Height & Delta Width</h2>
+									<p>To know which challenges Madeline can tackle and which would result in an impossible to complete we will use some game metrics combining the different abilities from Madeline’s toolkit. We can gather Madeline’s delta height (how much she can jump vertically) and delta width (how much she can move horizontally before touching the ground) so we know how lengthy or high an obstacle can be.</p>
+									<div class="row2">
+										<div class="col-6 col-12-xsmall">
+											<h3>Delta Height</h3>
+											<ul>
+												<li>Jumping Madelain gains a height of 3 tiles.</li>
+												<li>Dashing Madelain gains a height of 6 tiles.</li>
+												<li>Jumping and Dashing Madelain gains a height of 9 tiles.</li>
+											</ul>
+											<span class="image fit"><img src="images/DeltaH.gif" alt="" /></span>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<h3>Delta Width</h3>
+											<p>Jumping Madelain can move 8 tiles horizontally.</p>
+											<span class="image fit"><img src="images/DeltaW.gif" alt="" /></span>
+											<p>Jumping and Dashing Madelain can move 16 tiles horizontally.</p>
+											<span class="image fit"><img src="images/DeltaWL.gif" alt="" /></span>
+										</div>
+									</div>
+								
 								</div>
 							</section>
 
